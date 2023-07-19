@@ -309,4 +309,69 @@ a:hover {
   right: 20px;
   position: absolute;
   font-size: 24px;
+}
+
+.feedback {
+  padding: 180px 0px;
+  background: linear-gradient(180deg, #242b33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242b33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9) 0%, rgba(36, 43, 51, 0.9) 100%), url("./../img/main/feedback/background.jpg"), #c4c4c4;
+}
+
+.feedback__title {
+  margin-bottom: 17px;
+}
+
+.feedback__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.feedback__text {
+  line-height: 1.5;
+}
+
+.feedback__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 30px;
+}
+
+.form__input {
+  height: 50px;
+  padding: 12px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in;
+}
+.form__input::-moz-placeholder {
+  color: #bebebe;
+}
+.form__input::placeholder {
+  color: #bebebe;
+}
+.form__input:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.form__privacy {
+  font-size: 13px;
+  line-height: 1.23;
+  color: #e7e7e7;
+  text-align: center;
+}
+
+.form__btn {
+  height: 50px;
+  padding: 12px;
+  background-color: #d4c17f;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  transition: background-color 0.2s ease-in;
+}
+.form__btn:hover {
+  background-color: #eecf65;
 }/*# sourceMappingURL=main.css.map */
