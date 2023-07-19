@@ -41,3 +41,10 @@ a {
   border: 0;
   clip: rect(0 0 0 0);
 }
+
+.title-2 {
+  font-size: 36px;
+  font-family: $font-accent;
+  color: $accent;
+  font-weight: 700;
+}
