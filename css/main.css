@@ -418,4 +418,19 @@ a:hover {
 .section-map__map {
   height: 358px;
   background: gray;
+}
+
+.cta {
+  padding-bottom: 180px;
+}
+
+.cta__title {
+  margin-bottom: 38px;
+}
+
+.cta__form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
