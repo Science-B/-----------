@@ -9,17 +9,21 @@
     linear-gradient(0deg, rgba(36, 43, 51, 0.9) 0%, rgba(36, 43, 51, 0.9) 100%),
     url("./../img/main/feedback/background.jpg"), #c4c4c4;
 }
+
 .feedback__title {
   margin-bottom: 17px;
 }
+
 .feedback__row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+
 .feedback__text {
   line-height: 1.5;
 }
+
 .feedback__form {
   display: grid;
   grid-template-columns: 1fr 1fr;
