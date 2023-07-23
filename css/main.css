@@ -727,9 +727,10 @@ a:hover {
   }
 }
 
-.section-map__map {
+.map {
+  width: 100%;
   height: 358px;
-  background: gray;
+  background: #626262;
 }
 
 .cta {
@@ -800,4 +801,14 @@ a:hover {
   -moz-column-gap: 22px;
        column-gap: 22px;
   align-items: center;
+}
+
+[class*=copyrights-pane] {
+  /* display: none !important; */
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.map:hover [class*=copyrights-pane] {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
