@@ -58,4 +58,10 @@
   right: 20px;
   position: absolute;
   font-size: 24px;
+
+  @include mediaTablet {
+    font-size: 16px;
+    left: 30px;
+    bottom: 30px;
+  }
 }

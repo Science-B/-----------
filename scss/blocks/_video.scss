@@ -1,4 +1,18 @@
 .video {
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    @include decorNumber;
+    content: "IV";
+    left: calc(50% + 555px);
+    transform: translate(-50%, 0);
+    line-height: 1.5;
+
+    @include mediaTablet {
+      content: "";
+    }
+  }
 }
 
 .video__link {
@@ -35,5 +49,10 @@
   &:hover {
     transform: translate(-50%, -50%) scale(1.2);
     filter: saturate(1.5);
+  }
+
+  @include mediaTablet {
+    width: 70px;
+    height: 70px;
   }
 }
