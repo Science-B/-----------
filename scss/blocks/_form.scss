@@ -23,6 +23,12 @@
   line-height: 1.23;
   color: #e7e7e7;
   text-align: center;
+
+  &--bottom {
+    @include mediaTablet {
+      grid-row: 4/5;
+    }
+  }
 }
 
 .form__btn {
